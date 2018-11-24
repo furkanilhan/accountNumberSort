@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 2rem 1.5rem;
+    font: 1.5rem/1.5 "PT Sans", Arial, sans-serif;
+    color: #5a5a5a;
+  }
+
+input[type="file"] {
+    display: none;
+    cursor: pointer;
+}
+
+.file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}

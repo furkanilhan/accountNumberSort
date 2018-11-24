@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <script type="text/javascript" src="assets/main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center col-md-6 col-md-offset-3">
+            <h3>Insert the File</h3>
+            <div class="form-group">
+                <label for="file-upload" class="file-upload">
+                    <i class="fa fa-cloud-upload"></i> Choose a File
+                </label>
+                <input id="file-upload" type="file" accept="text/plain" onchange="openFile(event)" />
+            </div>
+        </div>
+        <div class="col-md-8 col-md-offset-2">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Inserted Account Numbers</h4>
+                    <div id="output"></div>
+                </div>
+                <div class="col-md-6">
+                    <h4>Organized Account Numbers</h4>
+                    <div id="result"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
